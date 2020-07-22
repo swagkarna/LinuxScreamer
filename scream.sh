@@ -1,5 +1,5 @@
 #!/bin/sh
-loops=99999999999999;
+loops=2147483647;
 tmp="/tmp/talib.mp3";
 url="https://www.mboxdrive.com/talib.mp3";
 wget $url --output-document=$tmp > /dev/null 2>&1;
